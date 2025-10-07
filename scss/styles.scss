@@ -1,0 +1,11 @@
+.navbar .btn-outline-light:hover
+{
+    color: var(--bs-dark);
+}
+
+.header {
+  /*→ Görseli hem yatayda hem dikeyde ortalar.*/
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+  /*ekranın tamamını kaplayacak şekilde büyütür.*/
+}
