@@ -3,9 +3,45 @@
     color: var(--bs-dark);
 }
 
+
+
 .header {
   /*→ Görseli hem yatayda hem dikeyde ortalar.*/
   background: url(../images/header-background.jpg) center center no-repeat;
   background-size: cover;
   /*ekranın tamamını kaplayacak şekilde büyütür.*/
+  border-bottom: none;
 }
+
+.modal-dialog
+{
+  max-width: 1040px;
+}
+
+.download
+{
+  background: url('../images/download-background.jpg');
+}
+
+.navbar-sticky {
+  opacity: 0.95;
+  
+}
+
+
+@media (max-width: 1000px) {
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .text-container {
+    text-align: center;
+  }
+}
+
+.list-group-item
+{
+  border-bottom: none;
+}
+
